@@ -1,9 +1,28 @@
-/*body{*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    flex-wrap: wrap;*/
-/*}*/
-
+body{
+   background-color: #111113;
+}
+h1{
+    color: white;
+    font-family: teko;
+}
+p{
+    color: white;
+    font-family: teko;
+}
+h2{
+    color: white;
+    font-family: teko;
+}
+#insta{
+    color: white;
+}#facebook{
+    color: white;
+}#twitter{
+    color: white;
+}
+ #home{
+     color: white;
+ }
 @media screen and (max-width: 500px) {
     #skipToMain {
         display: flex;
@@ -103,6 +122,8 @@
         right: 15px;
 
 
+
+
     }
 
     #home{
@@ -158,10 +179,14 @@
         font-family: fantasy
     }
 
-    img {
+    .pic {
         width: 1200px;
         height: 500px;
 
+    }
+    a{
+        color: white;
+        font-family: teko;
     }
 
     footer{
