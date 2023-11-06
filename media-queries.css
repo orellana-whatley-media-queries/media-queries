@@ -1,7 +1,21 @@
 @media screen and (min-width: 500px){
-    div{
+    #skipToMain{
         display: flex;
-        text-align: center;
+        justify-content: center;
+        background-color: #ccffff;
+        box-sizing: border-box;
+
 
     }
+    .title{
+        display: flex;
+        justify-self: center;
+    }
+    li{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+
+    }
+    li
 }
