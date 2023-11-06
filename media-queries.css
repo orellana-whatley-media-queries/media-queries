@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
     #skipToMain {
         display: flex;
         justify-content: center;
@@ -59,6 +59,50 @@
 
 
 }
-@media screen and (min-width: 1200px){
 
+@media screen and (min-width: 501px){
+
+
+    #skipToMain {
+        visibility: hidden;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        padding: 1px;
+        margin: 1px;
+        list-style: none;
+        align-items: baseline;
+        position: relative;
+
+
+    }
+
+    #home{
+        margin-top: 0px;
+        padding: 0 10px 10px 10px;
+        justify-content: flex-end;
+        position: relative;
+    }
+
+    #about{
+        padding: 10px;
+
+    }
+
+    #work {
+        padding: 10px;
+
+    }
+
+    #contact{
+        padding: 10px;
+
+    }
+
+    .header-img {
+        display: flex;
+    }
 }
