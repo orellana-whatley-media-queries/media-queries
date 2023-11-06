@@ -23,18 +23,21 @@ h2{
  #home{
      color: white;
  }
+
+
 @media screen and (max-width: 500px) {
     #skipToMain {
         display: flex;
         justify-content: center;
-        background-color: #ccffff;
+        background-color: #9F0B08;
         box-sizing: border-box;
-        color: black;
+        color: white;
         text-decoration: none;
         width: 100%;
         height: 100%;
         padding: 10px;
-        border: 2px solid rgb(128, 128, 128);
+        /*border: 2px solid rgb(128, 128, 128);*/
+        font-family: teko;
 
 
     }
@@ -46,23 +49,27 @@ h2{
     li {
         text-align: center;
         list-style: none;
-        position: relative;
+        /*position: relative;*/
         right: 15px;
+        font-family: teko;
+    }
 
-
+    a {
+        color: white;
+        text-decoration: none;
     }
 
     body {
-        position: relative;
+        display: ;
+        /*position: relative;*/
     }
 
     .nav-links li {
         border: 1px solid dimgray;
-        background-color: lightgray;
+        background-color: #9F0B08;
         padding: 10px;
         margin: 9px;
         font-weight: bold;
-
     }
 
     .header-img {
@@ -82,11 +89,6 @@ h2{
         font-style: italic;
     }
 
-    /*img {*/
-    /*    width: 300px;*/
-    /*    height: 100px;*/
-
-    /*}*/
 
 
 }
@@ -101,18 +103,10 @@ h2{
         flex-wrap: wrap;
     }
 
-    /*h1 {*/
-    /*    display: flex;*/
-    /*    position: absolute;*/
-    /*    top: 10px;*/
-    /*    left: 0px;*/
-    /*}*/
-
-
     .nav-links {
         display: flex;
         justify-content: flex-end;
-        flex-direction: row;
+        /*flex-direction: row;*/
         padding: 1px;
         margin: 1px;
         list-style: none;
@@ -120,21 +114,19 @@ h2{
         position: absolute;
          top: 50px;
         right: 15px;
-
-
-
-
     }
 
     #home{
-        margin-top: 0px;
-        padding: 0 10px 10px 10px;
-        justify-content: flex-end;
-        position: relative;
+        /*margin-top: 0px;*/
+        padding: 10px;
+        /*justify-content: flex-end;*/
+        /*position: relative;*/
+        color: white;
     }
 
     #about{
         padding: 10px;
+        color: white;
 
     }
 
@@ -159,13 +151,12 @@ h2{
 
     }
     .sub-section{
-
         display: flex;
         flex-direction: column;
         width: 45%;
         padding: 5px;
         margin-left: 10px;
-        font-family: fantasy;
+        font-family: teko;
 
     }
     .main{
@@ -176,7 +167,7 @@ h2{
         float: left;
         padding: 5px;
         margin-left: 10px;
-        font-family: fantasy
+        font-family: teko;
     }
 
     .pic {
